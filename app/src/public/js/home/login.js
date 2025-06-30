@@ -15,7 +15,7 @@ function login() {
     fetch("/login", {
         method: "POST",
         headers: {
-            "Content-Tyep": "application/json",
+            "Content-Type": "application/json",
         },
         body: JSON.stringify(req),
     });
