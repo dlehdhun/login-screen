@@ -41,7 +41,7 @@ const process = {
          const url = {
             method: "POST",
             path: "/register",
-            status: response.err ? 400 : 200,
+            status: response.err ? 409 : 201, //원래는 서버측 에러가 발생시 발생되는 코드로 500번때를 반환하는것이 맞다.
         };
          
         log(response, url);
