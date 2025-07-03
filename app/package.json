@@ -1,8 +1,10 @@
 {
   "dependencies": {
     "body-parser": "^2.2.0",
+    "dotenv": "^17.0.1",
     "ejs": "^3.1.10",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mysql": "^2.18.1"
   },
   "name": "login-screen",
   "version": "1.0.0",
